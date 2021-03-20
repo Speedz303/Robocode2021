@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="/image/onlyLogo.png">
+    <link rel="icon" href="image/onlyLogo.png" type="image/gif" sizes="16x16">
+    <link href="robocon.css" rel="stylesheet"/>
+    <link href="root.css" rel="stylesheet"/>
+    <link href="gioiThieu.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>ROBOCODE: Maintenance</title>
+</head>
+<body>  
+    <div class="bg">
+        <header id = "header">
+            <div class="content1">
+            <div><a href="index.html"><img src="image/onlyLogo.png" alt="logo" class="logo"></a></div>
+            <ul>
+            <li><div class="dropdown-list">
+                <p class="dropdown-list__text">Giới Thiệu
+                    <div class="dropdown-temp"> </div>
+                </p>
+                <div class="dropdown-list__box">
+                    <a href="gioiThieu1.html" class="dropdown-list__item">Về Robocode</a>
+                    <a href="maintenance.html" class="dropdown-list__item">Về cuộc thi</a>
+                </div>
+            </div></li>
+            <li><div class="dropdown-list">
+                <p class="dropdown-list__text">Hướng Dẫn
+                    <div class="dropdown-temp"> </div>
+                </p>
+
+                <div class="dropdown-list__box">
+                    <a target="_blank" href="https://www.howkteam.vn/course/lap-trinh-java-co-ban-den-huong-doi-tuong/cai-dat-moi-truong-java-3834" class="dropdown-list__item">Cài đặt Java</a>
+                    <a href="maintenance.html" class="dropdown-list__item">Cài đặt Robocode</a>
+                    <a href="maintenance.html" class="dropdown-list__item">Tạo robo</a>
+                </div>
+            </div></li>
+            <li><a href="library.html" class="nav-link">Thư Viện</a></li>
+            <li><a href="#" class="nav-link">Gửi File Robo</a></li>
+            </ul>
+            </div>
+            <div class="contact">
+                <a href="https://www.facebook.com/CLBLapTrinhTrenThietBiDiDong/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg></a>
+            </div>
+            <div class="toggle" onclick="toggle()"></div>
+        </header>
+        <section class="banner" id ="banner">       
+            <div class="container">
+                <div class="paragraph">
+                    <h1 class="paragraph-h1">Trang này hiện chưa có thông tin, vui lòng quay lại sau nho :></h1>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script>
+    function toggle(){
+        var header = document.getElementById("header");
+        header.classList.toggle('active');
+    }
+</script>
+</html>
